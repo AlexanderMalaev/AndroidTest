@@ -19,7 +19,7 @@ class Delegate {
 class MainActivity : AppCompatActivity() {
     var p: String by Delegate()
 
-    //ttt
+    //ttt 22
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
